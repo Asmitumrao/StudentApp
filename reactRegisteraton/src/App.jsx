@@ -4,7 +4,6 @@ import Login from './component/Login'
 import Register from './component/Registeration'
 import Dashboard from './component/Dashboard'
 import { Route,Routes } from 'react-router-dom';
-import HomePage from './component/homePage'
 
 function App() {
  

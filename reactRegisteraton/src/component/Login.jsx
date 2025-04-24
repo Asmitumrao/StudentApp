@@ -1,4 +1,3 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
@@ -14,7 +13,7 @@ const Login = ()=>  {
       e.preventDefault();
       console.log("sending data to server");
 
-      const response = await fetch('http://localhost:3065/login', {
+      const response = await fetch('https://studentapp-pwpi.onrender.com/login', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',

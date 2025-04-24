@@ -12,7 +12,7 @@ const Registeration = ()=>  {
         e.preventDefault();
         console.log("sending data to server");
         console.log(email, password);
-        const response = await fetch('http://localhost:3065/register', {
+        const response = await fetch('https://studentapp-pwpi.onrender.com/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
